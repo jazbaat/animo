@@ -1,0 +1,251 @@
+body {
+    width: 100%;
+}
+
+.responsive {
+    animation: animate 5s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes animate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*navbar*/
+
+.navbar-brand {
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar-nav {
+    font-family: 'Lobster Two', cursive;
+}
+
+.nav-item {
+    margin-right: 16%;
+}
+
+.colos {
+    background-color: black;
+}
+
+.colos1 {
+    color: white;
+}
+
+#h1 {
+    animation: animo 2s linear infinite;
+}
+
+#h2 {
+    animation: animo 1s linear infinite;
+}
+
+#h3 {
+    animation: animo 1.3s linear infinite;
+}
+
+#like1 {
+    animation: animo 1.5s linear infinite;
+}
+
+#like2 {
+    animation: animo 2s linear infinite;
+}
+
+@keyframes animo {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-100%)
+    }
+}
+
+#phone {
+    animation: arm 2s linear infinite;
+    transform-origin: top right;
+}
+
+#head {
+    animation: arma 2s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes arma {
+    from {
+        transform: rotate(2deg)
+    }
+    to {
+        transform: rotate(-1deg)
+    }
+}
+
+@keyframes arm {
+    from {
+        transform: rotate(1deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+.svg1 {
+    width: 457px;
+    text-align: right;
+    margin-left: 20%;
+    height: 356px;
+    margin-top: 52%;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.container p {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+}
+
+.btns {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+
+/*.............................................................................................
+
+Cycle animations
+
+...............................................................................................*/
+
+#wheel1,
+#wheel2 {
+    animation: wheel 0.1s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes paddle {
+    0% {
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0%)
+    }
+}
+
+#head1 {
+    animation: arma 1.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes arma {
+    from {
+        transform: rotate(4deg)
+    }
+    to {
+        transform: rotate(-1deg)
+    }
+}
+
+.cycling-svg {
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 388px;
+    height: 360px;
+}
+
+.con2 {
+    margin-top: 45%;
+}
+
+.con2 h1 {
+    text-align: center;
+    animation: letter 4s linear infinite;
+    font-family: 'Patua One', cursive;
+}
+
+@keyframes letter {
+    0%,
+    25% {
+        letter-spacing: 5px;
+        color: green;
+    }
+    50% {
+        letter-spacing: 8px;
+        opacity: 1;
+        color: rgb(29, 214, 29);
+    }
+    75% {
+        letter-spacing: -12px;
+        opacity: 1;
+        color: dodgerblue;
+    }
+    100% {
+        letter-spacing: 8px;
+        opacity: 0;
+        color: rgb(133, 190, 247);
+    }
+}
+
+.con2 p {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+}
+
+
+/*Third Animations*/
+
+
+/**/
+
+
+/*/*/
+
+#football {
+    animation: anim 1s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes anim {
+    0%,
+    25% {
+        transform: translateY(30%) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-100%) rotate(90deg);
+    }
+    75% {
+        transform: translateY(30%) rotate(270deg);
+    }
+    100% {
+        transform: translateY(-100%) rotate(360deg);
+    }
+}
+
+.svg-3 {
+    margin-top: 15%;
+    margin-left: 25%;
+}
